@@ -1,0 +1,28 @@
+{
+    "name": "attitude/json-store-php",
+    "description": "JSON store built on top of MySQL 8 JSON type and PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Adamko",
+            "email": "attitude@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/attitude/universal-time-identificator"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JSON\\Store\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8",
+        "attitude/universal-time-identificator": "dev-main"
+    }
+}
